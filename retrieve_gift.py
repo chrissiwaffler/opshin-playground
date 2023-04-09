@@ -1,6 +1,5 @@
 from blockfrost import ApiUrls
-from pycardano import BlockFrostChainContext, Address, PaymentVerificationKey, PaymentSigningKey, plutus_script_hash, Transaction, TransactionBuilder, PlutusData, Redeemer, PlutusV2Script, Network, TransactionOutput, datum_hash
-import cbor2
+from pycardano import BlockFrostChainContext, Address, PaymentVerificationKey, PaymentSigningKey, plutus_script_hash, TransactionBuilder, PlutusData, Redeemer, PlutusV2Script, Network, TransactionOutput
 from gift import CancelDatum
 from config import blockfrost_project_id
 
