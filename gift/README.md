@@ -1,4 +1,4 @@
-# Example smart contract with Opshin on Cardano
+# Gift smart contract with Opshin on Cardano
 - this example heavily builds on the [tutorial for smart contract by PyCardano](https://pycardano.readthedocs.io/en/latest/guides/plutus.html)
 - I am adding some minor variations here and there e.g., some print statements, some comments, etc.
 
