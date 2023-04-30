@@ -24,7 +24,6 @@ payment_skey = PaymentSigningKey.load("keys/key1/payment.skey")
 giver_address = Address(payment_vkey.hash(), network=network)
 
 payment_vkey_2 = PaymentVerificationKey.load("keys/key2/payment.vkey")
-taker_address = Address(payment_vkey_2.hash(), network=network)
 
 builder = TransactionBuilder(context)
 builder.add_input_address(giver_address)
